@@ -1,0 +1,15 @@
+body {
+    font-family: 'Courier New', Courier, 'Lucida Console', 'Monaco', 'Consolas', 'Menlo', 'Fira Code', 'Source Code Pro', monospace;
+    font-size: 14px;
+    color: grey
+}
+.block-data {
+    margin: 20px;
+}
+.block-data h2 {
+    margin-bottom: 0;
+}
+.block-data p {
+    margin-top: 10
+    ;
+}
