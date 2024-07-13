@@ -51,7 +51,7 @@ const fetchAllBlockTransactions = async (blockNumber) => {
   try {
     // while (hasMoreTransactions) {
       // const url = `${baseURL}&index=${index}&items_count=${items_count}`;
-      const url = `https://eth.blockscout.com/api/v2/transactions?block_number=20298243&index=11&items_count=0`;
+      const url = `https://eth.blockscout.com/api/v2/transactions?block_number=20298243&index=0&items_count=50`;
 
       console.log(url);
 
