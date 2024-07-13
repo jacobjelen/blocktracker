@@ -13,3 +13,22 @@ body {
     margin-top: 10
     ;
 }
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.column {
+    padding: 20px;
+}
+
+.column-70 {
+    flex: 0 0 70%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 70% */
+    background-color: #f1f1f1; /* Light gray background */
+}
+
+.column-30 {
+    flex: 0 0 30%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 30% */
+    background-color: #ccc; /* Darker gray background */
+}

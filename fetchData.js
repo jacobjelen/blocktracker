@@ -1,6 +1,5 @@
 // Queue to store the last 100 blocks
 let blockQueue = [];
-let transactions = [];
 
 // Function to get the latest block
 async function getLatestBlock() {
@@ -135,7 +134,7 @@ async function main() {
     // Process block data
     extractValues(block);
     updateDisplay(blockQueue);
-    updateTxList(block.transactions);
+    // updateTxList(block.transactions);
 
     // Convert and map transactions to new format
     const processedData = block.transactions.map((transaction) => {
@@ -149,7 +148,7 @@ async function main() {
 
     // Define the dimensions of the SVG container
     const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-    const width = 960 - margin.left - margin.right;
+    const width = 900 - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;
 
     // Create the SVG container
